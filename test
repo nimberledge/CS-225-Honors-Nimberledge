@@ -1,0 +1,4 @@
+rm main
+clang++ main.cpp -o main
+./main > out.ppm
+xdg-open out.ppm
